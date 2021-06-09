@@ -1,11 +1,13 @@
 @import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
 
 
 .cursive {
-  font-family: 'Amatic SC', cursive;
-  font-weight: 700;
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: 550;
+  text-transform: uppercase;
+  
 }
 
 .prose img {

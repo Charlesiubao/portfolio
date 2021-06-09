@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "studio",
   "private": true,
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)",
@@ -20,12 +20,14 @@
     "@sanity/default-layout": "^2.10.5",
     "@sanity/default-login": "^2.10.5",
     "@sanity/desk-tool": "^2.10.5",
-    "@sanity/google-maps-input": "^2.10.5",
     "@sanity/vision": "^2.10.5",
     "prop-types": "^15.7",
     "react": "^17.0",
-    "react-dom": "^17.0",
-    "react-icons": "^3.11.0"
+    "react-dom": "^17.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Charlesiubao/portfolio.git"
+  }
 }

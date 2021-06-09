@@ -1,12 +1,15 @@
 import React from "react";
-import image from "../rain.jpg"
+import image from "../horseshoe.jpg";
 
 export default function Home() {
   return (
     <main>
-      <img src={image} alt="rain" className="absolute object-cover w-full h-full" />
+      <img src={image} alt="horse" className="absolute object-cover w-full h-full" />
       <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
-        <h1 className="text-6xl text-green-100 font-bold cursive leading-none lg:leading-snug home-name">Hi. My name is Charlie</h1>
+        <h1 className="text-6xl text-green-100 font-bold cursive leading-none lg:leading-snug home-name">HI. MY NAME IS CHARLIE<br/>
+        Shí éí Charlie yinishyé<br/>
+        Ako si Charlie<br/>
+        </h1>
       </section>
     </main>
   )

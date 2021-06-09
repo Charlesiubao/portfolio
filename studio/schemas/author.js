@@ -1,16 +1,12 @@
-import UserIcon from 'part:@sanity/base/user-icon'
-
 export default {
-  name: 'person',
-  title: 'Person',
+  name: 'author',
+  title: 'Author',
   type: 'document',
-  icon: UserIcon,
   fields: [
     {
       name: 'name',
       title: 'Name',
       type: 'string',
-      description: 'Please use "Firstname Lastname" format',
     },
     {
       name: 'slug',
@@ -18,7 +14,7 @@ export default {
       type: 'slug',
       options: {
         source: 'name',
-        maxLength: 100,
+        maxLength: 96,
       },
     },
     {
@@ -29,8 +25,24 @@ export default {
         hotspot: true,
       },
     },
+    {
+      name: 'bio',
+      title: 'Bio',
+      type: 'array',
+      of: [
+        {
+          title: 'Block',
+          type: 'block',
+          styles: [{title: 'Normal', value: 'normal'}],
+          lists: [],
+        },
+      ],
+    },
   ],
   preview: {
-    select: {title: 'name', media: 'image'},
+    select: {
+      title: 'name',
+      media: 'image',
+    },
   },
 }
