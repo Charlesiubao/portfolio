@@ -26,9 +26,10 @@ export default function NavBar() {
           </NavLink>
         </nav>
         <div className="inline-flex py-3 px-3 my-6">
-          <SocialIcon url="https://www.linkedin.com/in/kc-reyes/" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
-          <SocialIcon url="https://twitter.com/Charlesiubao" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
-          <SocialIcon url="https://github.com/Charlesiubao" className="mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
+          <SocialIcon url="https://www.linkedin.com/in/kc-reyes/" className="icon mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
+          <SocialIcon url="https://twitter.com/Charlesiubao" className="icon mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
+          <SocialIcon url="https://github.com/Charlesiubao" className="icon mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
+          <SocialIcon url="mailto:kcreyes@usa.com" className="icon mr-4" target="_blank" fgColor="#fff" style={{ height: 35, width: 35}} />
         </div>
       </div>
     </header>

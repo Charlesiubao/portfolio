@@ -19,3 +19,44 @@
 .home-name {
   font-size: 150px;
 }
+
+.icon {
+  transition: transform .2s;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
+
+b {
+  font-weight: 550;
+}
+
+.greet {
+  margin-top: -150px;
+}
+
+/* .greet:hover h1 {
+  display: none;
+}
+
+.greet.eng:hover:before {
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: 550;
+  text-transform: uppercase;
+  content: "انا تشارلي"
+}
+
+.greet.nvh:hover:before {
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: 550;
+  text-transform: uppercase;
+  content: "私はチャーリーです"
+}
+
+.greet.tgl:hover:before {
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: 550;
+  text-transform: uppercase;
+  content: "나는 찰리"
+} */
