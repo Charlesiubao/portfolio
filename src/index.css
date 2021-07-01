@@ -36,6 +36,13 @@ b {
   margin-top: -150px;
 }
 
+.navbar {
+  height: 80px;
+}
+
+.container {
+  margin-top: -25px;
+}
 /* .greet:hover h1 {
   display: none;
 }
